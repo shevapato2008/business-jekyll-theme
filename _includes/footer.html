@@ -1,26 +1,27 @@
 <!-- Footer -->
-<footer> 
+<footer>
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <h3><i class="fa fa-map-marker"></i> Contact:</h3>
+        <h3><i class="fa fa-map-marker"></i> 联系方式</h3>
         <p class="footer-contact">
           {{ site.company_name }} <br>
-          Phone: {{ site.telephone_number }} <br>
-          Fax: {{ site.fax_number }} <br>
-          Email: {{ site.company_email }}<br>
+          电话: {{ site.telephone_number }} <br>
+          传真: {{ site.fax_number }} <br>
+          邮箱: {{ site.company_email }}<br>
+          地址: {{ site.address_line }}
         </p>
       </div>
       <div class="col-md-4">
-        <h3><i class="fa fa-external-link"></i> Links</h3>
-        <p><a href="/about"> About ( Who we are )</a></p>
-        <p><a href="/about"> Services ( What we do )</a></p>
-        <p><a href="/contact"> Contact ( Feel free to contact )</a></p>
-        <p><a href="/blog"> Blog ( Write to us )</a></p>
-        <p><a href="/team"> Team ( Meet the Team )</a></p> 
+        <h3><i class="fa fa-external-link"></i> 重要链接</h3>
+        <p><a href="/about"> 公司简介</a></p>
+        <p><a href="/about"> 服务概要</a></p>
+        <p><a href="/contact"> 联系方式</a></p>
+        <p><a href="/news"> 头条新闻</a></p>
+        <p><a href="/team"> 团队组成</a></p>
       </div>
       <div class="col-md-4">
-        <h3><i class="fa fa-heart"></i> Socialize</h3>
+        <h3><i class="fa fa-heart"></i> 社交平台</h3>
         <div id="social-icons">
           {% if site.googleplus_link %}
             <a href="{{ site.googleplus_link }}" class="btn-group google-plus">
@@ -46,7 +47,7 @@
             </a>
           {% endif %}
         </div>
-      </div>    
+      </div>
     </div>
   </div>
 
