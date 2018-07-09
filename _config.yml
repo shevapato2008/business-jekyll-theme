@@ -28,7 +28,7 @@ telephone_number: 022-88888888
 fax_number: 022-88888888
 company_email: postmaster@yongliangfan.com
 google_map: https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3618.727010735933!2d91.837871!3d24.907291700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1404919738144
-gaode_map: https://restapi.amap.com/v3/staticmap?location=117.092533,39.078453&zoom=14&size=1024*450&markers=mid,,A:117.092533,39.078453&key=06f8d7ba940ebc7f4fffbb39cd554e58
+autonavi_map: http://f.amap.com/58kwM_0DF59AH
 
 # Social Link
 facebook_link: http://www.facebook.com
