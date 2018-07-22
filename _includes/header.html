@@ -15,20 +15,28 @@
 
   <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
     <ul class="nav navbar-nav pull-right">
-      <li class="active">
-        <a href="/">主页</a>
+      <li>
+        <a href="{{ site.baseurl }}/" {% if page.url == "/" %}class="active"{% endif %}>主页</a>
       </li>
       <li>
-        <a href="{{ site.baseurl }}/about.html">关于</a>
+        <a href="{{ site.baseurl }}/about.html" {% if page.url == "/about" %}class="active"{% endif %}>关于</a>
       </li>
       <li>
-        <a href="{{ site.baseurl }}/news.html">新闻</a>
+        <a href="{{ site.baseurl }}/news.html" {% if page.url == "/news" %}class="active"{% endif %}>新闻</a>
       </li>
       <li>
-        <a href="{{ site.baseurl }}/team.html">团队</a>
+        <a href="{{ site.baseurl }}/services/index.html" {% if page.url == "/services.html" %}class="active"{% endif %}>业务</a>
+        <ul id="sub-navilist">
+          <li><a href="{{ site.baseurl }}/services/workabroad/index.html">外派工作</a></li>
+          <li><a>出国留学</a></li>
+          <li><a>语言培训</a></li>
+        </ul>
       </li>
       <li>
-        <a href="{{ site.baseurl }}/contact.html"><span>联系</span></a>
+        <a href="{{ site.baseurl }}/team.html" {% if page.url == "/team" %}class="active"{% endif %}>团队</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/contact.html" {% if page.url == "/contact" %}class="active"{% endif %}><span>联系</span></a>
       </li>
     </ul>
   </div>
