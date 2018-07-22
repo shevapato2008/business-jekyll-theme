@@ -267,7 +267,6 @@ address {
 
 .navbar-nav > li > ul {
   padding: 0px 0px;
-  opacity: .9;
   position: absolute;
   z-index: 2;
 }
