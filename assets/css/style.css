@@ -246,9 +246,11 @@ address {
 }
 
 .navbar-nav > li > a {
-  padding: 10px 40px;
+  padding: 10px 0px;
   margin: 0px 0px;
   border-radius: 10px;
+  display: block;
+  width: 7em;
   /* opacity: .3; */
 }
 
@@ -280,10 +282,11 @@ address {
 .navbar-nav > li > ul > li > a {
   text-decoration: none;
   color: #5e5e5f;
-  padding: 10px 25px;
+  padding: 10px 0px;
   margin: 0px 0px;
   border-radius: 10px;
   display: block;
+  width: 7em;
 }
 
 .navbar-nav > li > ul > li > a:hover {
