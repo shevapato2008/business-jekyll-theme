@@ -89,9 +89,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
     margin-top: 15px;
     border:1px solid #DDD;
     padding: 5px;
-
-
- }
+}
 .form-group{
 
     padding:20px;
@@ -234,7 +232,7 @@ address {
 }
 .navbar {
   font-weight: bold;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
@@ -248,9 +246,9 @@ address {
 }
 
 .navbar-nav > li > a {
-  padding: 10px 30px;
+  padding: 10px 40px;
   margin: 0px 0px;
-  border-radius: 4px;
+  border-radius: 10px;
   /* opacity: .3; */
 }
 
@@ -262,7 +260,7 @@ address {
 
 .navbar-nav > li:hover {
   background-color: #33B3B8;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .navbar-nav > li > ul {
@@ -282,9 +280,9 @@ address {
 .navbar-nav > li > ul > li > a {
   text-decoration: none;
   color: #5e5e5f;
-  padding: 10px 15px;
+  padding: 10px 25px;
   margin: 0px 0px;
-  border-radius: 4px;
+  border-radius: 10px;
   display: block;
 }
 
