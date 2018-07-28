@@ -809,4 +809,15 @@ footer h3 {
 */
 .job {
   float: left !important;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #969696;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin: 20px 0px;
+}
+
+.job:hover {
+  border-color: #000000;
 }
