@@ -819,5 +819,16 @@ footer h3 {
 }
 
 .job:hover {
-  border-color: #000000;
+  border-color: blue;
+}
+
+.job-title {
+  font-size: 1.3em;
+  font-weight:bold;
+  color: black;
+}
+
+.job-title:hover {
+  text-decoration: blink;
+  color: blue;
 }
