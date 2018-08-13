@@ -4,26 +4,28 @@
     <div class="row">
       <div class="col-md-4">
         <h3><i class="fa fa-map-marker"></i> 联系方式</h3>
-        <p class="footer-contact">
-          {{ site.company_name }} <br>
-          电话: {{ site.telephone_number }} <br>
-          <!-- 传真: {{ site.fax_number }} <br> -->
-          邮箱: {{ site.company_email }}<br>
-          地址: {{ site.address_line }}
-        </p>
+        <p class="footer-contact">{{ site.company_name }}</p>
+        <p class="footer-contact">电话: {{ site.telephone_number }}</p>
+        <!-- 传真: {{ site.fax_number }} </p> -->
+        <p class="footer-contact">邮箱: {{ site.company_email }}</p>
+        <p class="footer-contact">地址: {{ site.address_line }}</p>
       </div>
       <div class="col-md-4">
         <h3><i class="fa fa-external-link"></i> 重要链接</h3>
-        <p><a href="{{ site.baseurl }}/about"> 公司简介</a></p>
-        <p><a href="{{ site.baseurl }}/services"> 服务概要</a></p>
-        <p><a href="{{ site.baseurl }}/contact"> 联系方式</a></p>
-        <p><a href="{{ site.baseurl }}/news"> 头条新闻</a></p>
-        <p><a href="{{ site.baseurl }}/team"> 团队组成</a></p>
+        <p style="margin-left: 30px;"><a href="{{ site.baseurl }}/about"> 公司简介</a></p>
+        <p style="margin-left: 30px;"><a href="{{ site.baseurl }}/services"> 服务概要</a></p>
+        <p style="margin-left: 30px;"><a href="{{ site.baseurl }}/contact"> 联系方式</a></p>
+        <p style="margin-left: 30px;"><a href="{{ site.baseurl }}/news"> 头条新闻</a></p>
+        <p style="margin-left: 30px;"><a href="{{ site.baseurl }}/team"> 团队组成</a></p>
       </div>
       <div class="col-md-4">
-        <h3><i class="fa fa-heart"></i> 社交平台</h3>
+        <!-- <h3><i class="fa fa-heart"></i> 微信公众号</h3> -->
+        <h3>
+          <img src="{{ site.baseurl }}/assets/img/social-icons/wechat_logo.png" style="width: 30px" alt="wechat-group">
+          微信公众号
+        </h3>
         <div id="social-icons">
-          {% if site.googleplus_link %}
+          <!-- {% if site.googleplus_link %}
             <a href="{{ site.googleplus_link }}" class="btn-group google-plus">
               <i class="fa fa-google-plus"></i>
             </a>
@@ -45,7 +47,10 @@
             <a href="{{ site.facebook_link }}" class="btn-group facebook">
               <i class="fa fa-facebook"></i>
             </a>
-          {% endif %}
+          {% endif %} -->
+
+          <img src="{{ site.baseurl }}/assets/img/social-icons/wechat_group.jpg" style="width: 120px; margin-left: 40px;" alt="wechat-group">
+
         </div>
       </div>
     </div>
