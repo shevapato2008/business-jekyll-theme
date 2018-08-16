@@ -3,15 +3,34 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <h3><i class="fa fa-map-marker"></i> 联系方式</h3>
-        <p class="footer-contact">{{ site.company_name }}</p>
-        <p class="footer-contact">电话: {{ site.telephone_number }}</p>
+        <h3>
+          <!-- <i class="fa fa-map-marker"></i> -->
+          <img src="{{ site.baseurl }}/assets/img/social-icons/phone2.png" style="width: 30px" alt="contact-icon">
+          联系方式
+        </h3>
+        <p class="footer-contact">
+          {{ site.company_name }}
+        </p>
+        <p class="footer-contact">
+          <img src="{{ site.baseurl }}/assets/img/social-icons/phone1.png" style="width: 20px; margin-right: 10px;" alt="phone-icon">
+          {{ site.telephone_number }}
+        </p>
         <!-- 传真: {{ site.fax_number }} </p> -->
-        <p class="footer-contact">邮箱: {{ site.company_email }}</p>
-        <p class="footer-contact">地址: {{ site.address_line }}</p>
+        <p class="footer-contact">
+          <img src="{{ site.baseurl }}/assets/img/social-icons/email.png" style="width: 20px; margin-right: 10px;" alt="email-icon">
+          {{ site.company_email }}
+        </p>
+        <p class="footer-contact">
+          <img src="{{ site.baseurl }}/assets/img/social-icons/location.png" style="width: 20px; margin-right: 10px;" alt="location-icon">
+          {{ site.address_line }}
+        </p>
       </div>
       <div class="col-md-4">
-        <h3><i class="fa fa-external-link"></i> 重要链接</h3>
+        <h3>
+          <!-- <i class="fa fa-external-link"></i> -->
+          <img src="{{ site.baseurl }}/assets/img/social-icons/internet_explorer.png" style="width: 30px" alt="ie-icon">
+          重要链接
+        </h3>
         <p style="margin-left: 30px;"><a href="{{ site.baseurl }}/about"> 公司简介</a></p>
         <p style="margin-left: 30px;"><a href="{{ site.baseurl }}/services"> 服务概要</a></p>
         <p style="margin-left: 30px;"><a href="{{ site.baseurl }}/contact"> 联系方式</a></p>

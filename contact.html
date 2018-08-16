@@ -15,13 +15,22 @@ published: true
     </div>
     <div class="container">
       <div class="col-lg-4">
-        <h4>联系我们:</h4>
+        <h4 style="margin-top: 20px; font-weight: bold;">联系我们</h4>
 
-        <p class="block-author">{{ site.company_name }}</p>
-        <p>电话: {{ site.telephone_number }}</p>
+        <p class="block-author" style="color:black !important;">{{ site.company_name }}</p>
+        <p>
+          <img src="{{ site.baseurl }}/assets/img/social-icons/phone1_black.png" style="width: 20px; margin-right: 10px;" alt="phone-icon">
+          {{ site.telephone_number }}
+        </p>
         <!-- <p>传真: {{ site.fax_number }}</p> -->
-        <p>邮箱: {{ site.company_email }}</p>
-        <p>地址: {{ site.address_line }}</p>
+        <p>
+          <img src="{{ site.baseurl }}/assets/img/social-icons/email_black.png" style="width: 20px; margin-right: 10px;" alt="email-icon">
+          {{ site.company_email }}
+        </p>
+        <p>
+          <img src="{{ site.baseurl }}/assets/img/social-icons/location_black.png" style="width: 20px; margin-right: 10px;" alt="location-icon">
+          {{ site.address_line }}
+        </p>
         <br>
         <!-- p class="lead">Social Link</p><hr>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
